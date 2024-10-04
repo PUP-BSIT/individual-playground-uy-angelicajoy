@@ -1,3 +1,4 @@
+print ("Welcome")
 first_name = "Angelica"
 age=20
 type = "New Patient"
