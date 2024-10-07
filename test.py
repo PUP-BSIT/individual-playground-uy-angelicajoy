@@ -7,3 +7,4 @@ print (first_name, age, type)
 
 name = input("What is your name? ")
 print("Hello " + name)
+print 
