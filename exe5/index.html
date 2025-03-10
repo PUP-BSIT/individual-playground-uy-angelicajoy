@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uy, Angelica Joy</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="image" class="back">
+      <h1>Uy, Angelica Joy</h1>
+    </div>
+
+    <div id="content">
+      <div class="box">
+        <h2 class="font">My interest and hobbies</h2>
+        <ol>
+          <li>Playing guitar</li>
+          <li>Painting about nature</li>
+          <li>Learning different coding languages</li>
+          <li>Taking pictures of nature</li>
+          <li>Reading Books</li>
+        </ol>
+      </div>
+      <div class="box">
+        <h2 class="font">My works</h2>
+        <ul>
+          <li>
+            <a href="./assets/BIOGRAPHY.html" target="_blank">Bio</a>
+          </li>
+          <li>
+            <a href="./assets/Advocacy.html" target="_blank">Advocacy</a>
+          </li>
+          <li>
+            <a href="./assets/NYE.html" target="_blank">NYE</a>
+          </li>
+          <li>
+            <a href="./assets/ICT.html" target="_blank">ICT</a>
+          </li>
+          <li>
+            <a href="./assets/start.html" target="_blank">Webdev 1.0 </a>
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <h2 class="font">Testimonials</h2>
+        <h4 class="font-2">Ashley Hermione Gomez</h4>
+        <ul>
+          <li>
+            <p>The website has a clean and simple design.</p>
+          </li>
+        </ul>
+
+        <h4 class="font-2">Kevin Joseph Barcelos</h4>
+        <ul>
+          <li>
+            <p>Angelica is an amazing coder and teammate!</p>
+          </li>
+        </ul>
+
+        <h4 class="font-2">Gener Andaya Jr.</h4>
+        <ul>
+          <li>
+            <p>I appreciate the website's design. Nice one!</p>
+          </li>
+        </ul>
+      </div>
+      <div class="box-2">
+        <h2 class="font">Gallery</h2>
+        <img src="./assets/200w.gif" />
+        <img src="./assets/family.gif" />
+        <img src="./assets/giphy.gif" />
+        <img src="./assets/giphy.gif" />
+        <img src="./assets/family.gif" />
+        <img src="./assets/200w.gif" />
+      </div>
+      
+      <div class="box">
+        <div class="header">
+          <h2 class="font">Contact Form</h2>
+        </div>
+
+        <form>
+          <div class="form-group">
+            <label>Name</label>
+            <div class="name-fields">
+              <div>
+                <input type="text" placeholder="First Name" required />
+              </div>
+              <div>
+                <input type="text" placeholder="Last Name" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="ex. myname@example.com" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>What position are you currenly in?</label>
+              <select required>
+                <option value="">-Select-</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="product_manager">Product Manager</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Date the you have filled out this form:</label>
+              <div class="date-field">
+                <input type="date" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>What is your employee status?</label>
+            <div class="radio-group">
+              <div class="radio-option">
+                <input type="radio"
+                       id="employed"
+                       name="status"
+                       value="employed"
+                       checked />
+                <label for="employed">Employed</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio"
+                       id="unemployed"
+                       name="status"
+                       value="unemployed" />
+                <label for="unemployed">Unemployed</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio"
+                       id="self-employed"
+                       name="status"
+                       value="self-employed" />
+                <label for="self=employed">Self-Employed</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio"
+                       id="student" 
+                       name="status" 
+                       value="student" />
+                <label for="student">Student</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Website link</label>
+              <input type="url" placeholder="www.example.com" required />
+            </div>
+            <div class="form-group">
+              <label>Please upload your resume</label>
+              <input type="file" accept=".pdf,.doc,.docx">
+            </div>
+          </div>
+
+          <div class="button">
+            <button type="reset" class="btn btn-reset">Reset</button>
+            <button type="submit" class="btn btn-submit">Apply</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
